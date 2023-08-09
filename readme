@@ -1,0 +1,25 @@
+- npm start: run program 
+- npm run watch: run to compile scss to css 
+
+import 
+- @import 'variables';
+
+chỉ được viết css ở file scss vì file scss sẽ compile sang css.
+
+nodemon: theo dõi những file có đuôi đc cấu hình
+
+POST METHOD: 
+
+Mô hình MVC:
+
+{
+    const data = await Course.findOne({slug :req.params.slug}).lean();
+    https://chat.openai.com/share/93e91690-4002-4ce9-a6c8-c991acce2263
+}
+
+Create -> POST
+Update -> PUT, PATCH
+Delete -> DELETE 
+Read -> GET
+
+console.log($(this).data('id')); ghi lại giá trị được lưu trong thuộc tính data-id(jquery)
